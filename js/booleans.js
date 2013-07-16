@@ -32,3 +32,8 @@ var obj = {};
 if (obj) {
     console.log('object: you will see it also');
 }
+
+console.log(0 == false);   // true
+console.log(0 === false);  // false, because they are of a different type
+console.log(1 == "1");     // true, auto type coercion
+console.log(1 === "1");    // false, because they are of a different type
